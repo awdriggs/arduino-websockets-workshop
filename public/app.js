@@ -7,7 +7,8 @@ const servoValue = document.getElementById('servo-value');
 const statusDisplay = document.getElementById('status');
 
 // Connect to WebSocket server
-const ws = new WebSocket(`ws://${window.location.host}`);
+const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+const ws = new WebSocket(`${protocol}//${window.location.host}`);
 
 ws.onopen = () => {
   console.log('Connected to server');
