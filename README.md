@@ -6,7 +6,8 @@
 - `npm install`
 - `npm start`
 
-Test the sockets connection using a tool
+You can test the sockets connection using a cli tool or [Insomnia](https://insomnia.rest/download)
+
 ```bash
 npm install -g wscat
 wscat -c ws://localhost:3000
@@ -14,8 +15,11 @@ wscat -c ws://localhost:3000
 # Then send messages:
 {"type":"buttonPress"}
 {"type":"brightness","value":200}
+
 ```
 
-or [Insomnia](https://insomnia.rest/download)
+## Deploy on Render
+
+
 
 
