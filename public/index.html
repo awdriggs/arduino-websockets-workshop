@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arduino WebSocket Controller</title>
+</head>
+<body>
+  <h1>Arduino WebSocket Controller</h1>
+
+  <div>
+    <label for="brightness-slider">Brightness: <span id="brightness-value">0</span></label>
+    <br>
+    <input type="range" id="brightness-slider" min="0" max="255" value="0">
+  </div>
+
+  <div>
+    <label for="flash-slider">Flash Speed: <span id="flash-value">0</span></label>
+    <br>
+    <input type="range" id="flash-slider" min="0" max="1000" value="0">
+  </div>
+
+
+  <div>
+    <label for="servo-slider">Servo Position: <span id="servo-value">0</span></label>
+    <br>
+    <input type="range" id="servo-slider" min="0" max="180" value="90">
+  </div>
+
+
+  <div>
+    <p>Status: <span id="status">Disconnected</span></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
