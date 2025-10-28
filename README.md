@@ -40,6 +40,8 @@ Basic node server. This server handles the socket connections. It broadcasts to 
 
 Note: servo motor should connect red to the Vin pin to get a power boost. This is sort of a hack but works. Black cable to ground. Data cable should connect to D6
 
+[Live Dashboard](https://arduino-websockets-workshop.onrender.com/)
+
 ## A Challenge
 - Combine the two sketches!
 - Connect a force sensor to the Arduino
