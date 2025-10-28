@@ -26,8 +26,8 @@ Basic node server. This server handles the socket connections. It broadcasts to 
 - Code tested for the Arduino Nano IOT
 - Build the Circuit
 ![circuit](circuit-tester/circuit.png)
-- Test the circuit using the sketch found in [circuit_tester](circuit_tester) folder
-- The examples a wifi connection to connect to the web server. Use the sketch in [wifi_tester](wifi_tester) to test your connections
+- Test the circuit using the sketch found in [circuit-tester](circuit-tester) folder
+- The examples a wifi connection to connect to the web server. Use the sketch in [wifi-tester](wifi-tester) to test your connections
 
 ### Example 1 - Turn on the Lights
 - A button press on an connected arduino will instantly update the button state on the server.
@@ -46,7 +46,7 @@ Note: servo motor should connect red to the Vin pin to get a power boost. This i
 - Write a p5 sketch the uses the force the change the size of the circle.
   - The higher the force the smaller the circle.
 
-*Hint - You don't have to change anything on the server side and can my server for relaying your messages.
+*Hint - You'll either have to change and deploy your own server or highjack one of my value, like brightness 
 
 
 
